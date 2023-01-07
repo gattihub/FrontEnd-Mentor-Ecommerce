@@ -1,3 +1,24 @@
 .nav-link:hover {
     color: hsl(0, 0%, 0%);
 }
+
+.col-6 h6 {
+ color: hsl(26, 100%, 55%);
+}
+
+.p-descount {
+    background-color: hsl(25, 100%, 94%);
+    color: hsl(26, 100%, 55%);
+}
+
+.btn-secondary {
+    background-color: hsl(223, 64%, 98%);
+    border: none;
+    color: hsl(26, 100%, 55%);
+}
+
+.button-cart {
+    background-color: hsl(26, 100%, 55%) ;
+    color: white;
+}
+
