@@ -1,5 +1,14 @@
 .nav-link:hover {
     color: hsl(0, 0%, 0%);
+    border-bottom: hsl(26, 100%, 55%)s;
+}
+#icon-car-nav {
+    width: 1rem;
+    height: 1rem;
+}
+
+#avatar-nav {
+    width: 2.5rem;
 }
 
 .col-6 h6 {
@@ -20,5 +29,9 @@
 .button-cart {
     background-color: hsl(26, 100%, 55%) ;
     color: white;
+}
+
+.noHover {
+    pointer-events: none;
 }
 
