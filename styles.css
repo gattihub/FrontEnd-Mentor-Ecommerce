@@ -59,13 +59,17 @@
     margin-top: 0;
 }
 
-@media (max-width: 840px) {
+@media (max-width: 991px) {
 
     .navbar {
         padding-bottom: 0px;
     }
     .navbar-toggler {
         border: none;
+    }
+
+    .navbar-nav__lg {
+        display: none;
     }
 
     .container {
