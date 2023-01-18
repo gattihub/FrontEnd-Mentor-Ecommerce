@@ -46,30 +46,53 @@
             </ul>
           </div>
         </div>
-        <a class="navbar-brand d-flex align-items-center" href="#">
-          <img class="icon-cart-nav pb-3" src="/images/logo.svg" alt="logo da loja">
+        <a class="navbar-brand d-flex align-items-center pb-3" href="#">
+          <img class="icon-cart-nav" src="/images/logo.svg" alt="logo da loja">
         </a>
         <ul class="navbar-nav navbar-nav__lg">
           <li class="nav-item border-bottom pb-3">
-            <a class="nav-link" aria-current="page" href="#">Collections</a>
+            <a class="nav-link pb-0" aria-current="page" href="#">Collections</a>
           </li>
           <li class="nav-item border-bottom pb-3">
-            <a class="nav-link" aria-current="page" href="#">Men</a>
+            <a class="nav-link pb-0" aria-current="page" href="#">Men</a>
           </li>
           <li class="nav-item border-bottom pb-3">
-            <a class="nav-link" aria-current="page" href="#">Women</a>
+            <a class="nav-link pb-0" aria-current="page" href="#">Women</a>
           </li>
           <li class="nav-item border-bottom pb-3">
-            <a class="nav-link" aria-current="page" href="#">About</a>
+            <a class="nav-link pb-0" aria-current="page" href="#">About</a>
           </li>
           <li class="nav-item border-bottom pb-3">
-            <a class="nav-link" aria-current="page" href="#">Contact</a>
+            <a class="nav-link pb-0" aria-current="page" href="#">Contact</a>
           </li>
         </ul>
         <div class="col d-flex flex-row-reverse align-items-center pb-3">
           <img id="avatar-nav" class="px-1 ms-4" src="images/image-avatar.png" alt="Avatar do usuário">
           <div class="counter rounded" value="">0</div>
-          <img id="icon-cart-nav" class="" src="images/icon-cart.svg" alt="icone carrinho de compras">
+
+
+          <img id="icon-cart-nav" class="" src="images/icon-cart.svg" alt="icone carrinho de compras" data-bs-toggle="modal" data-bs-target="#showCartItems">
+          <div class="modal fade" id="showCartItems" tabindex="-1" aria-labelledby="showCartItemsLabel" aria-hidden="true">
+            <div class="modal-dialog modal-sm">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="showCartItemsLabel">Cart</h1>
+                </div>
+                <div class="modal-body modal-body__cart d-flex align-items-center">
+                  <div class="container-fluid">
+                    <div class="row justify-content-center">
+                      <div class="col-1 w-75">
+                        Your cart is empty.
+                      </div>                     
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+
+
         </div>
       </div>
     </nav>

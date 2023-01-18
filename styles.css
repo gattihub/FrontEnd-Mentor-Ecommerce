@@ -6,11 +6,24 @@
 }
 .nav-item:hover {
     border-bottom: 5px solid hsl(26, 100%, 55%) !important;
-    border-top: 5px solid;
+    
 }
 #icon-cart-nav {
     width: 1rem;
     height: 1rem;
+}
+#showCartItems {
+    position: fixed;
+    top: 53%;
+    left: 82%;
+    transform: translate(-50%, -50%);
+}
+
+.modal-body__cart {
+    height: 150px;
+}
+.col-1 {
+    text-align: center;
 }
 
 #icon-cart-nav:hover {
