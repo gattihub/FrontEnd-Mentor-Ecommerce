@@ -1,3 +1,169 @@
 .nav-link:hover {
-    color: hsl(0, 0%, 0%);
+    color: #000;
+}
+.nav-item {
+    border-color: white !important;
+}
+.nav-item:hover {
+    border-bottom: 5px solid hsl(26, 100%, 55%) !important;
+    
+}
+#icon-cart-nav {
+    width: 1rem;
+    height: 1rem;
+}
+#showCartItems {
+    position: fixed;
+    top: 53%;
+    left: 82%;
+    transform: translate(-50%, -50%);
+}
+
+.modal-body__cart {
+    height: 150px;
+}
+.col-1 {
+    text-align: center;
+}
+
+#icon-cart-nav:hover {
+    cursor: pointer;
+}
+
+#avatar-nav {
+    width: 2.5rem;
+    border-radius: 3rem;
+}
+
+#avatar-nav:hover {
+    border:hsl(26, 100%, 55%) 2px solid  ;
+    cursor: pointer;
+}
+
+.counter {
+    display:none;
+    height: 12px;
+    width: 12px;
+    margin-bottom: 15px;
+    margin: 0px 0px 8px -8px;
+    position: relative;
+    font-size: 8px;
+    color: white;
+    justify-content: center;
+    background-color:hsl(26, 100%, 55%) ;
+}
+.showCounter {
+    display:flex;
+}
+
+.image-border:hover {
+    cursor: pointer;
+    opacity: 50%;
+}
+
+.col-6 h6 {
+ color: hsl(26, 100%, 55%);
+}
+
+.p-descount {
+    background-color: hsl(25, 100%, 94%);
+    color: hsl(26, 100%, 55%);
+}
+
+.btn-secondary {
+    background-color: hsl(223, 64%, 98%);
+    border: none;
+    color: hsl(26, 100%, 55%);
+}
+
+.button-cart {
+    background-color: hsl(26, 100%, 55%) ;
+    color: white;
+   
+}
+.button-cart:hover {
+    background-color: hsl(26, 100%, 55%) ;
+    color: white;
+    opacity: 50%;
+}
+
+.cart-color {
+    filter: invert(84%) sepia(91%) saturate(0%) hue-rotate(142deg) brightness(109%) contrast(101%);
+}
+
+.noHover {
+    pointer-events: none;
+}
+
+.container {
+    margin-top: 0;
+}
+
+.cart-color {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(157deg) brightness(103%) contrast(102%);
+}
+
+.icon-cart-nav {
+   filter: invert(45%) sepia(18%) saturate(275%) hue-rotate(181deg) brightness(93%) contrast(92%);
+}
+
+
+@media (max-width: 991px) {
+
+    .navbar {
+        padding-bottom: 0px;
+    }
+    .navbar-toggler {
+        border: none;
+    }
+
+    .navbar-nav__lg {
+        display: none;
+    }
+
+    .container {
+        margin-top: 0px !important;
+    }
+
+    .row {
+        display:block;
+    }
+    .roullete-main {
+        width: 100% !important;
+        padding: 0;
+        display: block;
+    }
+    
+    
+    .roullete-storage {
+        visibility: hidden;
+        margin: 0px;
+        height: 0px;
+    }
+
+    .main-image {
+        border-radius: 0px !important;
+       
+    }
+
+    .product-description {
+        padding: 5%;
+    }
+
+    .price-descount {
+        display: flex;
+    }
+
+    .old-price {
+        margin: 16px 0px;
+    }
+
+    .quantity-selector {
+        width: 100% ;
+        margin-bottom: 15px;
+    }
+
+    .add-to-cart {
+        width: 100%;
+    }
 }
